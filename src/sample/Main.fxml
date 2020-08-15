@@ -1,8 +1,49 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
+<?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<GridPane fx:controller="controller.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="627.0" prefWidth="970.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="627.0" prefWidth="286.0" style="-fx-background-color: #3f2b63;">
+         <children>
+            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="67.0" prefWidth="286.0" style="-fx-background-color: #3f2b63;" text="Button" textFill="WHITE">
+               <graphic>
+                  <Icon content="HELP_OUTLINE" />
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="67.0" prefWidth="286.0" style="-fx-background-color: #3f2b63;" text="Button" textFill="WHITE">
+               <graphic>
+                  <Icon content="HELP_OUTLINE" />
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="67.0" prefWidth="286.0" style="-fx-background-color: #3f2b63;" text="Button" textFill="WHITE">
+               <graphic>
+                  <Icon content="HELP_OUTLINE" />
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="67.0" prefWidth="286.0" style="-fx-background-color: #3f2b63;" text="Button" textFill="WHITE">
+               <graphic>
+                  <Icon content="HELP_OUTLINE" />
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
